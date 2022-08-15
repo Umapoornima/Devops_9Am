@@ -1,2 +1,2 @@
 # Devops_9Am
-## Repo for Devops Training (www.github.com)!
+## Repo for Devops Training (https://github.com/Umapoornima/Devops_9Am.git)!
