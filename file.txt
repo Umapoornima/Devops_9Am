@@ -1,1 +1,2 @@
-hello poornima from india
+Devops is nothing but an integration between the development and operations
+AWS- Amazon web services
