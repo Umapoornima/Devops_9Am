@@ -3,8 +3,8 @@ pipeline{
         stages {
            stage ('build_stage'){
               steps{
-                sh 'echo "Hello build stage"'
-              }
+                 sh 'echo "Hello build stage is running on the `hostname` host!"'
+              } 
             stage ('Test_stage'){
               steps{
                 sh 'echo "Hello test stage"'
