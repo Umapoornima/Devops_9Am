@@ -8,3 +8,4 @@ do
 	else
 	        docker container run -it --name container$i -p 400$i:80 nginx:latest bash
 	fi
+done
