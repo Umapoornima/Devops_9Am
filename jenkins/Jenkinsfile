@@ -11,14 +11,14 @@ peline{
              sh 'echo "This is build stage running on the `hostname` host!"'
            }
          }
-        stage('build1.1`){
+        stage('build1.1'){
           steps{
-            sh 'sleep 5 && echo "parallel step1.1"
+            sh 'sleep 5 && echo "parallel step1.1" '
           }  
         }   
         stage('build1.2'){ 
          steps{
-           sh 'sleep 5 && echo "parallel step 1.2"
+           sh 'sleep 5 && echo "parallel step 1.2" '
          }
         }
        }
