@@ -1,0 +1,15 @@
+pipeline{
+     agent any
+        stages {
+           stage ('build_stage'){
+              steps{
+                sh 'echo "Hello build stage"'
+              }
+            stage ('Test_stage'){
+              steps{
+                sh 'echo "Hello test stage"'
+              }
+             }
+           }
+        }
+}
