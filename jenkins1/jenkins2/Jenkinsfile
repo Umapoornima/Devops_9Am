@@ -6,5 +6,8 @@ pipeline{
             }
           
           }
+          steps{
+           sh 'echo "This is Test stage from `hostname` host"'
+          }
 
 }
