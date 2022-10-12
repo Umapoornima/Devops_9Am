@@ -1,0 +1,10 @@
+pipeline{
+     agent any
+          stages{
+            steps('build'){
+             sh 'echo "This build stage from `hostname` host"'
+            }
+          
+          }
+
+}
